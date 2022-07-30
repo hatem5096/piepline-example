@@ -16,3 +16,9 @@ jobs:
           name: hello
           command: |
             echo "hello-world"
+          name: install frontend
+          command: |
+            npm run frontend:install
+          name: install backend
+          command: |
+            npm run backend:install      
